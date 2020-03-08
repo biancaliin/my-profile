@@ -1,0 +1,51 @@
+body {
+	background-color: rgb(50, 50, 50);
+	color: rgb(200, 200, 200);
+	font-family: 'Sintony', sans-serif;
+	font-size: 18px;
+	font-weight: 400
+}
+
+
+div {
+	margin: 0 auto;
+	background: rgb(25, 25, 25);
+	border: 3px solid white;
+	text-align: center;
+}
+
+h1 {
+	font-size: 38px;
+	font-weight: 700;
+}
+
+a {
+	text-decoration: none;
+	color: rgb(235, 235, 235);
+}
+
+a:hover {
+	color: #3BB9FF;
+}
+
+#border-profile {
+	border: 5px solid white;
+	width: 300px;
+}
+
+.container {
+	width: 600px;
+	margin: 0px auto;
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 500px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
